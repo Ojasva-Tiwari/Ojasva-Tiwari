@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050505" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#071A0D" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+
+    <!-- Wave Gradients -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#123D1B" stop-opacity="0.1" />
+      <stop offset="30%" stop-color="#00FF66" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#39FF14" stop-opacity="1" />
+      <stop offset="70%" stop-color="#B6FF00" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#123D1B" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.1" />
+      <stop offset="40%" stop-color="#123D1B" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#00FF66" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="waveGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .footer-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 7px;
+      fill: #E8FFE8;
+    }
+  </style>
+
+  <!-- Base Container -->
+  <rect width="1200" height="160" rx="12" fill="url(#footerBg)" />
+
+  <!-- Ambient Wave Ribbons -->
+  <path d="M 0 110 Q 300 40 600 100 T 1200 80" fill="none" stroke="url(#waveGrad2)" stroke-width="2" opacity="0.6" />
+  <path d="M 0 95 Q 320 145 600 75 T 1200 110" fill="none" stroke="url(#waveGrad1)" stroke-width="2.5" filter="url(#waveGlow)" />
+  <path d="M 0 120 C 350 70 850 140 1200 95" fill="none" stroke="#123D1B" stroke-width="1.5" stroke-dasharray="6 6" />
+
+  <!-- Wave Energy Nodes -->
+  <circle cx="300" cy="73" r="3.5" fill="#39FF14" filter="url(#waveGlow)" />
+  <circle cx="600" cy="75" r="4.5" fill="#B6FF00" filter="url(#waveGlow)" />
+  <circle cx="900" cy="98" r="3.5" fill="#00FF66" filter="url(#waveGlow)" />
+
+  <!-- Center HUD Plaque with Quote -->
+  <g transform="translate(600, 52)">
+    <!-- Alien-tech bracket delimiters -->
+    <path d="M -230 -16 L -245 -16 L -245 16 L -230 16" fill="none" stroke="#39FF14" stroke-width="2" />
+    <path d="M 230 -16 L 245 -16 L 245 16 L 230 16" fill="none" stroke="#39FF14" stroke-width="2" />
+
+    <!-- Center Text -->
+    <text x="0" y="6" text-anchor="middle" class="footer-mono" filter="url(#waveGlow)">
+      KEEP BUILDING. KEEP EVOLVING.
+    </text>
+  </g>
+
+  <!-- Bottom Terminal Status Bar -->
+  <g transform="translate(600, 142)">
+    <text x="0" y="0" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00FF66" letter-spacing="3" opacity="0.75">
+      // 01001111 01001101 01001110 01001001 // SYSTEM ACTIVE //
+    </text>
+  </g>
+</svg>

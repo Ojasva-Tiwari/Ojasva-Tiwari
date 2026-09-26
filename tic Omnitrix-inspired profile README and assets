@@ -1,0 +1,257 @@
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 6a22ac5..2ec720d 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,16 +1,281 @@[m
+[31m-## Hi there 👋[m
+[31m-[m
+[31m-<!--[m
+[31m-**Ojasva-Tiwari/Ojasva-Tiwari** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.[m
+[31m-[m
+[31m-Here are some ideas to get you started:[m
+[31m-[m
+[31m-- 🔭 I’m currently working on ...[m
+[31m-- 🌱 I’m currently learning ...[m
+[31m-- 👯 I’m looking to collaborate on ...[m
+[31m-- 🤔 I’m looking for help with ...[m
+[31m-- 💬 Ask me about ...[m
+[31m-- 📫 How to reach me: ...[m
+[31m-- 😄 Pronouns: ...[m
+[31m-- ⚡ Fun fact: ...[m
+[31m--->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- HEADER BANNER: RESPONSIVE ALIEN-TECH HUD (OMNITRIX THEME) -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <picture>[m
+[32m+[m[32m    <source media="(prefers-color-scheme: dark)" srcset="art/banner-dark.svg">[m
+[32m+[m[32m    <source media="(prefers-color-scheme: light)" srcset="art/banner-light.svg">[m
+[32m+[m[32m    <img alt="Ojasva Tiwari - Banner" src="art/banner-dark.svg" width="100%">[m
+[32m+[m[32m  </picture>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- TITLE & ANIMATED TYPING TERMINAL                        -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<h1 align="center">Hey there, I'm Ojasva Tiwari 👋</h1>[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <a href="https://github.com/Ojasva-Tiwari">[m
+[32m+[m[32m    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=39FF14&amp;background=05050500&amp;center=true&amp;vCenter=true&amp;width=550&amp;lines=Student;Developer+in+progress+%F0%9F%9A%80;AI%2FML+Explorer+%F0%9F%A4%96;Building+things+that+shouldn%27t+exist+yet+%E2%9A%A1;Learning+%E2%80%A2+Building+%E2%80%A2+Improving" alt="Typing SVG" />[m
+[32m+[m[32m  </a>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- HUD METRICS / GITHUB BADGES (BLACK + NEON GREEN)         -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <a href="https://github.com/Ojasva-Tiwari?tab=followers">[m
+[32m+[m[32m    <img src="https://img.shields.io/github/followers/Ojasva-Tiwari?label=Followers&logo=github&style=for-the-badge&color=39FF14&labelColor=050505&logoColor=39FF14" alt="GitHub Followers" />[m
+[32m+[m[32m  </a>[m
+[32m+[m[32m  &nbsp;[m
+[32m+[m[32m  <a href="https://github.com/Ojasva-Tiwari?tab=repositories">[m
+[32m+[m[32m    <img src="https://img.shields.io/github/stars/Ojasva-Tiwari?label=Total%20Stars&logo=star&style=for-the-badge&color=39FF14&labelColor=050505&logoColor=39FF14" alt="GitHub Stars" />[m
+[32m+[m[32m  </a>[m
+[32m+[m[32m  &nbsp;[m
+[32m+[m[32m  <a href="https://github.com/Ojasva-Tiwari">[m
+[32m+[m[32m    <img src="https://komarev.com/ghpvc/?username=Ojasva-Tiwari&label=Profile%20Views&color=39FF14&style=for-the-badge&labelColor=050505" alt="Profile Views" />[m
+[32m+[m[32m  </a>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- ABOUT ME (FUTURISTIC TERMINAL INTERFACE)                 -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<h2 align="center">👽 System Dossier // About Me</h2>[m
+[32m+[m
+[32m+[m[32m<table width="100%" border="0" cellspacing="0" cellpadding="10">[m
+[32m+[m[32m  <tr>[m
+[32m+[m[32m    <td width="65%" valign="top">[m
+[32m+[m[32m      <p>[m
+[32m+[m[32m        I enjoy learning software development, experimenting with technology, and turning ideas into working projects. Passionate about exploring system design, local-first web applications, geospatial modeling, and applied AI.[m
+[32m+[m[32m      </p>[m
+[32m+[m[32m      <pre>[m
+[32m+[m[32m╭──────────────────────────────────────────╮[m
+[32m+[m[32m│ SYSTEM PROFILE                           │[m
+[32m+[m[32m│                                          │[m
+[32m+[m[32m│ Name      → Ojasva Tiwari                │[m
+[32m+[m[32m│ Role      → Student                      │[m
+[32m+[m[32m│ Location  → Bangalore, India             │[m
+[32m+[m[32m│ Status    → ONLINE                       │[m
+[32m+[m[32m│ Focus     → Development + AI             │[m
+[32m+[m[32m│ Mode      → BUILD                        │[m
+[32m+[m[32m╰──────────────────────────────────────────╯[m
+[32m+[m[32m      </pre>[m
+[32m+[m[32m      <p>[m
+[32m+[m[32m        🌱 <b>Currently:</b> Learning &amp; Building<br>[m
+[32m+[m[32m        🎯 <b>Focus Areas:</b> Web Development / AI / DSA<br>[m
+[32m+[m[32m        📍 <b>Base Station:</b> Bangalore, Karnataka, India[m
+[32m+[m[32m      </p>[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m    <td width="35%" align="center" valign="middle">[m
+[32m+[m[32m      <a href="https://github.com/Ojasva-Tiwari">[m
+[32m+[m[32m        <img src="https://github.com/Ojasva-Tiwari.png" width="180" height="180" alt="Ojasva Tiwari Avatar" style="border-radius: 50%; max-width: 100%;">[m
+[32m+[m[32m      </a>[m
+[32m+[m[32m      <br>[m
+[32m+[m[32m      <sub><code>[ ID: Ojasva-Tiwari ]</code></sub>[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m  </tr>[m
+[32m+[m[32m</table>[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- TECH STACK                                               -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<h2 align="center">🧬 Tech Stack</h2>[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <i>Technologies, libraries, and tools I explore and build with:</i>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m<table align="center" width="100%" border="0" cellspacing="0" cellpadding="8">[m
+[32m+[m[32m  <tr>[m
+[32m+[m[32m    <td align="center" width="50%">[m
+[32m+[m[32m      <b>💻 Languages</b><br><br>[m
+[32m+[m[32m      <img src="https://skillicons.dev/icons?i=c,cpp,py,js,ts&theme=dark" alt="Languages (C, C++, Python, JavaScript, TypeScript)" />[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m    <td align="center" width="50%">[m
+[32m+[m[32m      <b>🌐 Frontend</b><br><br>[m
+[32m+[m[32m      <img src="https://skillicons.dev/icons?i=react,nextjs&theme=dark" alt="Frontend (React, Next.js)" />[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m  </tr>[m
+[32m+[m[32m  <tr>[m
+[32m+[m[32m    <td align="center" width="50%">[m
+[32m+[m[32m      <b>⚙️ Backend</b><br><br>[m
+[32m+[m[32m      <img src="https://skillicons.dev/icons?i=nodejs,fastapi&theme=dark" alt="Backend (Node.js, FastAPI)" />[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m    <td align="center" width="50%">[m
+[32m+[m[32m      <b>🗄️ Databases</b><br><br>[m
+[32m+[m[32m      <img src="https://skillicons.dev/icons?i=sqlite,prisma&theme=dark" alt="Databases & ORM (SQLite, Prisma)" />[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m  </tr>[m
+[32m+[m[32m  <tr>[m
+[32m+[m[32m    <td align="center" width="50%">[m
+[32m+[m[32m      <b>🤖 AI / ML</b><br><br>[m
+[32m+[m[32m      <img src="https://skillicons.dev/icons?i=py&theme=dark" alt="AI / ML Exploration (Python)" />[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m    <td align="center" width="50%">[m
+[32m+[m[32m      <b>🚀 DevOps &amp; Cloud</b><br><br>[m
+[32m+[m[32m      <img src="https://skillicons.dev/icons?i=docker,vercel&theme=dark" alt="DevOps (Docker, Vercel)" />[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m  </tr>[m
+[32m+[m[32m  <tr>[m
+[32m+[m[32m    <td align="center" colspan="2">[m
+[32m+[m[32m      <b>🛠️ Tools &amp; Workflow</b><br><br>[m
+[32m+[m[32m      <img src="https://skillicons.dev/icons?i=git,github,figma&theme=dark" alt="Tools & Design (Git, GitHub, Figma)" />[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m  </tr>[m
+[32m+[m[32m</table>[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- GITHUB STATISTICS                                        -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<h2 align="center">⚡ Telemetry &amp; GitHub Statistics</h2>[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <a href="https://github.com/Ojasva-Tiwari">[m
+[32m+[m[32m    <img src="https://github-readme-stats.vercel.app/api?username=Ojasva-Tiwari&show_icons=true&bg_color=050505&title_color=39FF14&icon_color=00FF66&text_color=E8FFE8&border_color=123D1B" alt="Ojasva Tiwari's GitHub Stats" />[m
+[32m+[m[32m  </a>[m
+[32m+[m[32m  &nbsp;[m
+[32m+[m[32m  <a href="https://github.com/Ojasva-Tiwari">[m
+[32m+[m[32m    <img src="https://streak-stats.demolab.com/?user=Ojasva-Tiwari&background=050505&stroke=123D1B&sideNums=39FF14&sideTitle=E8FFE8&ring=39FF14&fire=00FF66&currStreakLabel=39FF14&dates=E8FFE8&currStreakNum=39FF14" alt="GitHub Streak Stats" />[m
+[32m+[m[32m  </a>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <a href="https://github.com/Ojasva-Tiwari">[m
+[32m+[m[32m    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ojasva-Tiwari&layout=compact&bg_color=050505&title_color=39FF14&text_color=E8FFE8&border_color=123D1B" alt="Top Languages" />[m
+[32m+[m[32m  </a>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- CONTRIBUTION ACTIVITY GRAPH                              -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<h3 align="center">📊 Activity Frequency Graph</h3>[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <a href="https://github.com/Ojasva-Tiwari">[m
+[32m+[m[32m    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ojasva-Tiwari&bg_color=050505&color=39FF14&line=00FF66&point=B6FF00&area=true&hide_border=false&border=123D1B" alt="Contribution Activity Graph" width="100%" />[m
+[32m+[m[32m  </a>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- CONTRIBUTION GRID SNAKE                                  -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<h3 align="center">🐍 Contribution Matrix Snake</h3>[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <picture>[m
+[32m+[m[32m    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ojasva-Tiwari/Ojasva-Tiwari/output/github-contribution-grid-snake-dark.svg">[m
+[32m+[m[32m    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ojasva-Tiwari/Ojasva-Tiwari/output/github-contribution-grid-snake.svg">[m
+[32m+[m[32m    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Ojasva-Tiwari/Ojasva-Tiwari/output/github-contribution-grid-snake-dark.svg" width="100%">[m
+[32m+[m[32m  </picture>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m[32m<!-- FEATURED PROJECTS                                        -->[m
+[32m+[m[32m<!-- ======================================================== -->[m
+[32m+[m
+[32m+[m[32m<h2 align="center">🚀 Featured Projects</h2>[m
+[32m+[m
+[32m+[m[32m<table width="100%" border="0" cellspacing="0" cellpadding="8">[m
+[32m+[m[32m  <tr>[m
+[32m+[m[32m    <td width="50%" valign="top">[m
+[32m+[m[32m      <a href="https://github.com/Ojasva-Tiwari/avalanche-beacon-insight">[m
+[32m+[m[32m        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ojasva-Tiwari&repo=avalanche-beacon-insight&bg_color=050505&title_color=39FF14&text_color=E8FFE8&icon_color=00FF66&border_color=123D1B" width="100%" alt="Avalanche Beacon Insight Card" />[m
+[32m+[m[32m      </a>[m
+[32m+[m[32m      <br>[m
+[32m+[m[32m      <b><a href="https://github.com/Ojasva-Tiwari/avalanche-beacon-insight">Avalanche Beacon Insight</a></b>[m
+[32m+[m[32m      <p>[m
+[32m+[m[32m        Software-first decision-support platform for Search-and-Rescue (SAR) teams to locate avalanche victims using recursive Bayesian sensor fusion, terrain hazard models, and 3D geospatial visualization.[m
+[32m+[m[32m      </p>[m
+[32m+[m[32m      <sub><code>JavaScript</code> • <code>CesiumJS</code> • <code>Copernicus DEM GLO-30</code> • <code>Bayesian Fusion</code></sub><br>[m
+[32m+[m[32m      🔗 <a href="https://avalanche-beacon-insight.vercel.app">Live Deployment</a>[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m    <td width="50%" valign="top">[m
+[32m+[m[32m      <a href="https://github.com/Ojasva-Tiwari/Reddit-Hidden-Profile-Viewer">[m
+[32m+[m[32m        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ojasva-Tiwari&repo=Reddit-Hidden-Profile-Viewer&bg_color=050505&title_color=39FF14&text_color=E8FFE8&icon_color=00FF66&border_color=123D1B" width="100%" alt="Reddit Profile Viewer Card" />[m
+[32m+[m[32m      </a>[m
+[32m+[m[32m      <br>[m
+[32m+[m[32m      <b><a href="https://github.com/Ojasva-Tiwari/Reddit-Hidden-Profile-Viewer">Reddit Profile Viewer</a></b>[m
+[32m+[m[32m      <p>[m
+[32m+[m[32m        A fast Reddit profile viewer exploring historical public posts, comments, deleted/removed records, media provenance, and AI-driven evidence-backed profile insights.[m
+[32m+[m[32m      </p>[m
+[32m+[m[32m      <sub><code>Next.js</code> • <code>TypeScript</code> • <code>PostgreSQL</code> • <code>Drizzle ORM</code> • <code>Gemini API</code></sub><br>[m
+[32m+[m[32m      🔗 <a href="https://reddit-hidden-profile-viewer.vercel.app">Live Deployment</a>[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m  </tr>[m
+[32m+[m[32m  <tr>[m
+[32m+[m[32m    <td width="50%" valign="top">[m
+[32m+[m[32m      <a href="https://github.com/Ojasva-Tiwari/Linkedin-Trace">[m
+[32m+[m[32m        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ojasva-Tiwari&repo=Linkedin-Trace&bg_color=050505&title_color=39FF14&text_color=E8FFE8&icon_color=00FF66&border_color=123D1B" width="100%" alt="LinkedIn TRACE Card" />[m
+[32m+[m[32m      </a>[m
+[32m+[m[32m      <br>[m
+[32m+[m[32m      <b><a href="https://github.com/Ojasva-Tiwari/Linkedin-Trace">LinkedIn TRACE</a></b>[m
+[32m+[m[32m      <p>[m
+[32m+[m[32m        Chrome Manifest V3 extension &amp; local-first React application for capturing, structuring, and analyzing professional career trajectories grounded in verifiable evidence.[m
+[32m+[m[32m      </p>[m
+[32m+[m[32m      <sub><code>TypeScript</code> • <code>React</code> • <code>Manifest V3</code> • <code>IndexedDB</code></sub>[m
+[32m+[m[32m    </td>[m
+[32m+[m[32m    <td width="50%" valign="top">[m
+[32m+[m[32m      <a href="https://github.com/Ojasva-Tiwari/Filter">[m
+[32m+[m[32m        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ojasva-Tiwari&repo=Filter&bg_color=050505&title_color=39FF14&text_color=E8FFE8&icon_color=00FF66&border_color=123D1B" width="100%" alt="Filter Extensio

@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="auto">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="45%" stop-color="#071A0D" />
+      <stop offset="85%" stop-color="#050505" />
+      <stop offset="100%" stop-color="#071A0D" />
+    </linearGradient>
+
+    <linearGradient id="coreGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B6FF00" />
+      <stop offset="35%" stop-color="#39FF14" />
+      <stop offset="70%" stop-color="#00FF66" />
+      <stop offset="100%" stop-color="#123D1B" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#E8FFE8" />
+      <stop offset="100%" stop-color="#39FF14" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#00FF66" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#123D1B" stop-opacity="0.1" />
+    </linearGradient>
+
+    <radialGradient id="centerRadial" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0.35" />
+      <stop offset="40%" stop-color="#00FF66" stop-opacity="0.18" />
+      <stop offset="75%" stop-color="#071A0D" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#050505" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B6FF00" stop-opacity="1" />
+      <stop offset="40%" stop-color="#39FF14" stop-opacity="0.8" />
+      <stop offset="80%" stop-color="#00FF66" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#071A0D" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="intenseGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="15" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Circuit Pattern -->
+    <pattern id="circuitGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#123D1B" stroke-width="0.75" stroke-opacity="0.4" />
+      <circle cx="0" cy="0" r="1.5" fill="#00FF66" fill-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .pulse-glow { animation: pulse 3s infinite alternate ease-in-out; }
+    @keyframes pulse {
+      0% { opacity: 0.7; }
+      100% { opacity: 1; }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGradDark)" stroke="#123D1B" stroke-width="2" />
+  <rect width="1200" height="320" rx="16" fill="url(#circuitGrid)" opacity="0.6" />
+
+  <!-- Ambient Light Behind Core & Center -->
+  <circle cx="190" cy="160" r="180" fill="url(#centerRadial)" />
+  <circle cx="950" cy="160" r="220" fill="url(#centerRadial)" opacity="0.5" />
+
+  <!-- Outer HUD Frame Accents -->
+  <path d="M 12 36 L 12 12 L 36 12" fill="none" stroke="#39FF14" stroke-width="3" stroke-linecap="round" />
+  <path d="M 1188 36 L 1188 12 L 1164 12" fill="none" stroke="#39FF14" stroke-width="3" stroke-linecap="round" />
+  <path d="M 12 284 L 12 308 L 36 308" fill="none" stroke="#39FF14" stroke-width="3" stroke-linecap="round" />
+  <path d="M 1188 284 L 1188 308 L 1164 308" fill="none" stroke="#39FF14" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Circuit Traces Connecting Left & Right -->
+  <g opacity="0.65">
+    <path d="M 290 120 L 370 120 L 410 80 L 720 80" fill="none" stroke="url(#lineGrad)" stroke-width="1.5" />
+    <circle cx="720" cy="80" r="3" fill="#39FF14" filter="url(#neonGlow)" />
+
+    <path d="M 290 200 L 370 200 L 410 240 L 680 240" fill="none" stroke="url(#lineGrad)" stroke-width="1.5" />
+    <circle cx="680" cy="240" r="3" fill="#00FF66" />
+
+    <path d="M 270 160 L 360 160" fill="none" stroke="#39FF14" stroke-width="2" stroke-dasharray="4 4" />
+    <path d="M 1100 80 L 1140 80 L 1160 100" fill="none" stroke="#123D1B" stroke-width="1.5" />
+    <path d="M 1120 240 L 1150 240 L 1165 225" fill="none" stroke="#123D1B" stroke-width="1.5" />
+  </g>
+
+  <!-- ============================================== -->
+  <!-- LEFT: ALIEN-TECH / OMNITRIX-INSPIRED CORE HUD  -->
+  <!-- ============================================== -->
+  <g transform="translate(190, 160)">
+    <!-- Outer Tachometer Dial / Degrees Ring -->
+    <circle cx="0" cy="0" r="114" fill="none" stroke="#123D1B" stroke-width="3" opacity="0.8" />
+    <circle cx="0" cy="0" r="114" fill="none" stroke="#39FF14" stroke-width="3" stroke-dasharray="16 38" filter="url(#neonGlow)" />
+
+    <!-- Degree Ticks -->
+    <g stroke="#00FF66" stroke-width="1" opacity="0.5">
+      <line x1="0" y1="-114" x2="0" y2="-107" />
+      <line x1="114" y1="0" x2="107" y2="0" />
+      <line x1="0" y1="114" x2="0" y2="107" />
+      <line x1="-114" y1="0" x2="-107" y2="0" />
+      <line x1="80.6" y1="80.6" x2="75.6" y2="75.6" />
+      <line x1="-80.6" y1="80.6" x2="-75.6" y2="-75.6" />
+      <line x1="80.6" y1="-80.6" x2="75.6" y2="-75.6" />
+      <line x1="-80.6" y1="-80.6" x2="-75.6" y2="-75.6" />
+    </g>
+
+    <!-- Outer Rotating Dial Ring with Tech Notches -->
+    <circle cx="0" cy="0" r="98" fill="none" stroke="#071A0D" stroke-width="8" />
+    <circle cx="0" cy="0" r="98" fill="none" stroke="#39FF14" stroke-width="2" stroke-dasharray="60 15 20 15" filter="url(#neonGlow)" />
+
+    <!-- Hexagonal Tech Shroud -->
+    <polygon points="0,-82 71,-41 71,41 0,82 -71,41 -71,-41" fill="#071A0D" stroke="#00FF66" stroke-width="2" opacity="0.9" />
+
+    <!-- Inner Metallic Core Housing -->
+    <circle cx="0" cy="0" r="66" fill="#050505" stroke="#123D1B" stroke-width="4" />
+    <circle cx="0" cy="0" r="56" fill="#071A0D" stroke="#00FF66" stroke-width="1" stroke-dasharray="4 3" />
+
+    <!-- Omnitrix-Inspired Geometric Energy Matrices (Inward Prisms) -->
+    <!-- Top & Bottom Glowing Tech Chevrons -->
+    <polygon points="-36,-48 36,-48 0,-6" fill="url(#coreGlow)" filter="url(#neonGlow)" opacity="0.95" />
+    <polygon points="-36,48 36,48 0,6" fill="url(#coreGlow)" filter="url(#neonGlow)" opacity="0.95" />
+
+    <!-- Left & Right Dark Silhouettes Forming the Signature Core Interlock -->
+    <polygon points="-46,-28 -6,0 -46,28" fill="#050505" stroke="#39FF14" stroke-width="1.5" />
+    <polygon points="46,-28 6,0 46,28" fill="#050505" stroke="#39FF14" stroke-width="1.5" />
+
+    <!-- Central Glowing Core Singularity -->
+    <circle cx="0" cy="0" r="10" fill="#B6FF00" filter="url(#intenseGlow)" />
+    <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+
+    <!-- Circular HUD Orbit Labels -->
+    <text x="0" y="-124" text-anchor="middle" class="mono" font-size="8" fill="#39FF14" letter-spacing="2">MATRIX // ACTIVE</text>
+    <text x="0" y="132" text-anchor="middle" class="mono" font-size="8" fill="#00FF66" letter-spacing="2">SYS_DNA // 100%</text>
+  </g>
+
+  <!-- ============================================== -->
+  <!-- RIGHT: MAIN PROFILE IDENTITY & TELEMETRY       -->
+  <!-- ============================================== -->
+  <g transform="translate(370, 0)">
+    <!-- Top Telemetry Status Pill -->
+    <g transform="translate(0, 48)">
+      <rect x="0" y="0" width="310" height="24" rx="12" fill="#071A0D" stroke="#123D1B" stroke-width="1.5" />
+      <circle cx="14" cy="12" r="4.5" fill="#39FF14" filter="url(#neonGlow)" />
+      <text x="28" y="16" class="mono" font-size="10.5" font-weight="600" fill="#39FF14" letter-spacing="2">OMNI-LINK // DEV-CORE v3.0</text>
+      <!-- Mini signal bars -->
+      <g transform="translate(262, 7)">
+        <rect x="0" y="7" width="3" height="3" fill="#39FF14" />
+        <rect x="5" y="5" width="3" height="5" fill="#39FF14" />
+        <rect x="10" y="3" width="3" height="7" fill="#39FF14" />
+        <rect x="15" y="1" width="3" height="9" fill="#39FF14" />
+        <rect x="20" y="0" width="3" height="10" fill="#39FF14" />
+      </g>
+    </g>
+
+    <!-- Main Title: OJASVA TIWARI -->
+    <text x="0" y="130" class="sans" font-size="52" font-weight="900" fill="url(#textGrad)" letter-spacing="4px" filter="url(#neonGlow)">
+      OJASVA TIWARI
+    </text>
+
+    <!-- Subtitle: STUDENT • DEVELOPER • BUILDER -->
+    <g transform="translate(4, 168)">
+      <text class="mono" font-size="16" font-weight="700" fill="#B6FF00" letter-spacing="4px">
+        STUDENT <tspan fill="#39FF14">•</tspan> DEVELOPER <tspan fill="#39FF14">•</tspan> BUILDER
+      </text>
+    </g>
+
+    <!-- Horizontal Tech Divider -->
+    <g transform="translate(0, 192)">
+      <line x1="0" y1="0" x2="520" y2="0" stroke="#123D1B" stroke-width="1.5" />
+      <line x1="0" y1="0" x2="160" y2="0" stroke="#39FF14" stroke-width="2" filter="url(#neonGlow)" />
+      <polygon points="160,-3 166,0 160,3" fill="#39FF14" />
+    </g>
+
+    <!-- System Telemetry Chips -->
+    <g transform="translate(0, 222)">
+      <!-- Chip 1: Location -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="168" height="26" rx="6" fill="#071A0D" stroke="#123D1B" stroke-width="1" />
+        <circle cx="12" cy="13" r="3" fill="#00FF66" />
+        <text x="24" y="17" class="mono" font-size="10" fill="#E8FFE8" letter-spacing="1">BLR, IN [12.97°N]</text>
+      </g>
+
+      <!-- Chip 2: Focus Area -->
+      <g transform="translate(178, 0)">
+        <rect x="0" y="0" width="180" height="26" rx="6" fill="#071A0D" stroke="#123D1B" stroke-width="1" />
+        <text x="12" y="17" class="mono" font-size="10" fill="#39FF14" font-weight="600">⚡ WEB • AI • DSA</text>
+      </g>
+
+      <!-- Chip 3: State -->
+      <g transform="translate(368, 0)">
+        <rect x="0" y="0" width="138" height="26" rx="6" fill="#071A0D" stroke="#123D1B" stroke-width="1" />
+        <circle cx="12" cy="13" r="3" fill="#B6FF00" filter="url(#neonGlow)" />
+        <text x="22" y="17" class="mono" font-size="10" fill="#B6FF00" letter-spacing="1">MODE // BUILD</text>
+      </g>
+    </g>
+
+    <!-- Terminal Prompt Line -->
+    <g transform="translate(2, 276)">
+      <text class="mono" font-size="12" fill="#00FF66" opacity="0.9">
+        <tspan fill="#39FF14" font-weight="bold">> </tspan><tspan fill="#E8FFE8">INITIATE_PORTFOLIO</tspan> <tspan fill="#123D1B">--protocol=omnitrix --state=evolving</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side Ambient Decorative HUD Graphic -->
+  <g transform="translate(1080, 160)" opacity="0.45">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#123D1B" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#39FF14" stroke-width="1" stroke-dasharray="6 6" />
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#00FF66" stroke-width="1" />
+    <line x1="-50" y1="0" x2="50" y2="0" stroke="#123D1B" stroke-width="1" />
+    <line x1="0" y1="-50" x2="0" y2="50" stroke="#123D1B" stroke-width="1" />
+  </g>
+</svg>
