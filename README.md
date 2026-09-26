@@ -4,9 +4,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="art/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="art/banner-light.svg">
-    <img alt="Ojasva Tiwari - Banner" src="art/banner-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="art/banner-dark-v2.svg">
+    <source media="(prefers-color-scheme: light)" srcset="art/banner-light-v2.svg">
+    <img alt="Ojasva Tiwari - Banner" src="art/banner-dark-v2.svg" width="100%">
   </picture>
 </p>
 
