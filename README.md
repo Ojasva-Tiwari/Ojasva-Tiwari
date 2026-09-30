@@ -52,7 +52,7 @@
   <tr>
     <td width="65%" valign="top">
       <p>
-        I enjoy learning software development, experimenting with technology, and turning ideas into working projects. My interests center on web applications, system design, data structures, and applied AI.
+        I enjoy learning software development and turning ideas into working projects. My interests center on web applications, system design, data structures, and applied AI.
       </p>
       <pre>
 ╭──────────────────────────────────────────╮
