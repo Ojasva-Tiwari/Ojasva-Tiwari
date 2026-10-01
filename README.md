@@ -188,17 +188,17 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ojasva-Tiwari/Linkedin-Trace">LinkedIn TRACE</a></h3>
+      <h3><a href="https://github.com/Ojasva-Tiwari/Linkedin-Trace">COMEDK Compass</a></h3>
       <p>
-        Local-first Chrome extension (Manifest V3) and React application for capturing, structuring, and analyzing professional trajectories grounded in first-class, verifiable evidence.
+        A COMEDK college and counselling guidance platform to help students explore COMEDK colleges, courses, fees, cutoffs, and seat availability in one place.
       </p>
       <p>
-        <b>Stack:</b> <code>TypeScript</code> • <code>React</code> • <code>Manifest V3</code> • <code>IndexedDB</code><br>
-        <b>Links:</b> <a href="https://github.com/Ojasva-Tiwari/Linkedin-Trace">Repository</a>
+        <b>Stack:</b> <code>TypeScript</code> • <code>React</code> • <code>FastAPI</code> • <code>Python</code> • <code>PostgreSQL</code> • <code>Prisma</code> <br>
+        <b>Links:</b> <a href="https://github.com/Ojasva-Tiwari/comedk-compass">Repository</a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ojasva-Tiwari/Filter">Web Stream Matchmaking Filter</a></h3>
+      <h3><a href="https://github.com/Ojasva-Tiwari/Filter">Web Stream Omegle Filter</a></h3>
       <p>
         Client-side Chrome extension (Manifest V3) implementing partner filtering, real-time match inspection, and persistent filter preferences with zero external backend overhead.
       </p>
